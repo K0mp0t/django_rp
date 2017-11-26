@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Supermolot-Thin';
+    src: url('10965.ttf');
+}
+
+#background {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+}
+
+.container-fluid {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+span {
+    color: white;
+    font-family: 'Supermolot-Thin';
+}
+
+#temperature {
+    font-size: 148px;
+    margin: 20px 0 0 30px;
+}
+
+#conditions {
+    font-size: 84px;
+    margin-left: 120px;
+}
+
+#svg {
+    position: absolute;
+}
