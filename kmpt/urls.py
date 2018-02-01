@@ -20,4 +20,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
 	url(r'^', include('landing.urls')),
     url(r'^', include('weather.urls')),
+    url(r'^', include('recipes.urls')),
 ]

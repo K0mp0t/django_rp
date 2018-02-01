@@ -8,5 +8,10 @@ def landing(request):
 		data = form.cleaned_data
 		print (data['name'])
 		new_form = form.save()
+		
 	return render(request, 'landing/landing.html', locals())
+
+def home(request):
+		
+	return render(request, 'landing/home.html', locals())
 	

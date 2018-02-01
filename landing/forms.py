@@ -4,5 +4,5 @@ from .models import *
 class VisitorForm(forms.ModelForm):
     
     class Meta:
-         model = visitor
-         exclude = ['']
+        model = visitor
+        exclude = ['']
