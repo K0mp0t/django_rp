@@ -5,6 +5,7 @@ class Recipe(models.Model):
     recipe_name = models.CharField(max_length=64, default=None)
     recipe_description = models.TextField(default=None)
     full_recipe = models.TextField(default=None)
+    is_active = models.BooleanField(default=True)
     created = models.DateTimeField(auto_now_add=True, auto_now=False)
     updated = models.DateTimeField(auto_now_add=False, auto_now=True)
     
