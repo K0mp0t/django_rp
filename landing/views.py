@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from .forms import VisitorForm
-from recipes.models import Recipe, RecipeImage, RecipeTag
+from recipes.models import Recipe
 
 def landing(request):
 	
@@ -13,7 +13,6 @@ def landing(request):
 	return render(request, 'landing/landing.html', locals())
 
 def home(request):
-	recipes = Recipe.objects.filter(is_active=True)
-	tags = RecipeTag.objects.all()
+	recipes = Recipe.objects.all()	
 	return render(request, 'landing/home.html', locals())
 	
