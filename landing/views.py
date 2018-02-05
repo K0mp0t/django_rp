@@ -13,6 +13,9 @@ def landing(request):
 	return render(request, 'landing/landing.html', locals())
 
 def home(request):
-	recipes = Recipe.objects.all()	
+	recipes = Recipe.objects.all()
+	recipes_new = Recipe.objects.filter(status='Свежее')
+	recipes_hot = Recipe.objects.filter(status='Популярное')
+	recipes_best = Recipe.objects.filter(status='Лучшее')
 	return render(request, 'landing/home.html', locals())
 	
