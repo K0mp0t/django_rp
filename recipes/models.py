@@ -7,6 +7,7 @@ class Recipe(models.Model):
     
     name = models.CharField(max_length=64, default=None)
     description = models.TextField(default=None)
+    ingredients = models.TextField(default=None)
     full_recipe = models.TextField(default=None)
     tag = models.CharField(max_length=64, choices=TAG_CHOICES, default=None)
     status = models.CharField(max_length=64, choices=STATUS_CHOICES, default=None, blank=True, null=True)
