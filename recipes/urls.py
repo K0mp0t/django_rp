@@ -5,4 +5,4 @@ from recipes.models import *
 
 urlpatterns = [
 	url(r'^recipes/(?P<recipe_id>\w+)/$', views.recipe, name = 'recipe'),
-]
+] 
