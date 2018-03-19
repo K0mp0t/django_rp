@@ -1,0 +1,95 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+    <div class='section section1'>
+        <div class='container'>
+            <div class='col-lg-12 header'>
+                <h1 class='text-center'>
+                    Свежие рецепты
+                </h1>
+            </div>
+            <div class='row justify-content-center'>
+                 
+                {% for recipe in recipes_new %}
+                    <div class='col'>
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="{{ recipe.image.url }}">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ recipe.name }}</h5>
+                                <p class="card-text">{{ recipe.description }}</p>
+                                {% if recipe.status %}
+                                    <span class='recipe-status new'>{{ recipe.status }}</span>
+                                {% endif %}
+                                <!--<span class="recipe-tag">{{ recipe.tag }}</span><br>-->
+                                <img src="{% static 'img/view.svg' %}">
+                                <span class='recipe-views'> {{ recipe.views_counter }} </span><br>
+                                <a href="{% url 'recipe' recipe.id %}" class="btn btn-primary">Просмотреть рецепт</a> 
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+                
+            </div>
+        </div>
+    </div>
+    <div class='section section2'>
+        <div class='container'>
+            <div class='col-lg-12 header'>
+                <h1 class='text-center'>
+                    Лучшие рецепты
+                </h1>
+            </div>
+            <div class='row justify-content-center'>
+                 
+                {% for recipe in recipes_best %}
+                    <div class='col'>
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="{{ recipe.image.url }}">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ recipe.name }}</h5>
+                                <p class="card-text">{{ recipe.description }}</p>
+                                {% if recipe.status %}
+                                    <span class='recipe-status best'>{{ recipe.status }}</span>
+                                {% endif %}
+                                <img src='{% static "img/view.svg" %}'>
+                                <span class='recipe-views'> {{ recipe.views_counter }} </span><br>
+                                <a href="{% url 'recipe' recipe.id %}" class="btn btn-primary">Просмотреть рецепт</a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+                
+            </div>
+        </div>
+    </div>
+<!--    <div class='section section3'>
+        <div class='container'>
+            <div class='col-lg-12 header'>
+                <h1 class='text-center'>
+                    Популярные рецепты
+                </h1>
+            </div>
+            <div class='row'>
+                 
+                {% for recipe in recipes_hot %}
+                    <div class='col'>
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="{{ recipe.image.url }}">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ recipe.name }}</h5>
+                                <p class="card-text">{{ recipe.description }}</p>
+                                {% if recipe.status %}
+                                    <span class='recipe-status hot'>{{ recipe.status }}</span>
+                                {% endif %}
+                                <span class="recipe-tag">{{ recipe.tag }}</span><br>
+                                <a href="{% url 'recipe' recipe.id %}" class="btn btn-primary">Просмотреть рецепт</a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+                
+            </div>
+        </div>
+    </div>-->
+{% endblock %}

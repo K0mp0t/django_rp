@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+<html lang="en">
+  <head>
+    <title>Лучшее</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'css/recipes/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+  </head>
+  <body>
+    {% block content %}
+          <div class='section section1'>
+            <div class='container'>
+                <div class='col-12 header'>
+                    <h1 class='text-center'>
+                        Лучшие рецепты
+                    </h1>
+                </div>
+                <div class='row'>
+                 
+                    {% for recipe in recipes_best %}
+                        <div class='col'>
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="{{ recipe.image.url }}">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ recipe.name }}</h5>
+                                    <p class="card-text">{{ recipe.description }}</p>
+                                    {% if recipe.status %}
+                                        <span class='recipe-status best'>{{ recipe.status }}</span>
+                                    {% endif %}
+                                    <!--<span class="recipe-tag">{{ recipe.tag }}</span><br>-->
+                                    <img src='{% static "img/view.svg" %}'>
+                                    <span class='recipe-views'> {{ recipe.views_counter }} </span><br>
+                                    <a href="{% url 'recipe' recipe.id %}" class="btn btn-primary">Просмотреть рецепт</a> <!--{% url 'recipe' recipe.id %}-->
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                
+                </div>
+            </div>
+          </div>
+    {% endblock %}
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src='c:\python36\django\scripts\kmpt\static\js\bootstrap.min.js'></script>
+  </body>
+</html>

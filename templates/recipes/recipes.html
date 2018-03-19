@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+<html lang="en">
+  <head>
+    <title>Best recipes ever</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'css/recipes/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+  </head>
+  <body>
+    {% block content %}
+      <div class='container'>
+        <div class='row'>
+          <div class='col-6'>
+            <img src='{{ recipe.image.url }}' class='img-fluid'>
+          </div>
+          <div class='col-6'>
+            <h1 class='text-center'>{{ recipe.name }}</h1>
+            <div class='ingredients'>
+              <h3>Ингридиенты:</h3>
+              {{ recipe.ingredients }}
+            </div>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='col-12'>
+            <div class='full-recipe'>
+              <h3>Способ приготовления:</h3>
+              {{ recipe.full_recipe }}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endblock %}
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src='c:\python36\django\scripts\kmpt\static\js\bootstrap.min.js'></script>
+  </body>
+</html>
