@@ -25,5 +25,6 @@ urlpatterns = [
 	url(r'^', include('landing.urls')),
     url(r'^', include('recipes.urls')),
     url(r'^', include('search.urls')),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) \
++ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
          
