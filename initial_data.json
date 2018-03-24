@@ -1,0 +1,1584 @@
+[
+{
+   "model": "contenttypes.contenttype",
+   "pk": 1,
+   "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 2,
+   "fields": {
+      "app_label": "auth",
+      "model": "permission"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 3,
+   "fields": {
+      "app_label": "auth",
+      "model": "group"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 4,
+   "fields": {
+      "app_label": "auth",
+      "model": "user"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 5,
+   "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 6,
+   "fields": {
+      "app_label": "sessions",
+      "model": "session"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 7,
+   "fields": {
+      "app_label": "main",
+      "model": "post"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 8,
+   "fields": {
+      "app_label": "landing",
+      "model": "visitor"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 9,
+   "fields": {
+      "app_label": "recipes",
+      "model": "recipe"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 10,
+   "fields": {
+      "app_label": "recipes",
+      "model": "recipeimage"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 11,
+   "fields": {
+      "app_label": "recipes",
+      "model": "recipetag"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "20f9cnsqs7ex8c7pwsu64pqk1rweb5va",
+   "fields": {
+      "session_data": "MWRkYjIyZjczMzk0MGI2MTZlM2UxMmE0Y2QzNjI3MjE2NTM2ZWM0YTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI1ZDQ4N2YxZmRjMWEyOTRiODJkNjg0ZTA1Yzg3YjZlODFiNDljMmY2In0=",
+      "expire_date": "2018-02-03T11:20:07.283Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "azjy3zppfrsiujtiy81wbxl6f9bafrc3",
+   "fields": {
+      "session_data": "MWRkYjIyZjczMzk0MGI2MTZlM2UxMmE0Y2QzNjI3MjE2NTM2ZWM0YTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI1ZDQ4N2YxZmRjMWEyOTRiODJkNjg0ZTA1Yzg3YjZlODFiNDljMmY2In0=",
+      "expire_date": "2018-02-18T12:21:05.696Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "dvbtldhb4j7weitoxl8yvzz2b0g52c44",
+   "fields": {
+      "session_data": "MWRkYjIyZjczMzk0MGI2MTZlM2UxMmE0Y2QzNjI3MjE2NTM2ZWM0YTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI1ZDQ4N2YxZmRjMWEyOTRiODJkNjg0ZTA1Yzg3YjZlODFiNDljMmY2In0=",
+      "expire_date": "2018-03-13T14:47:33.804Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "shwyzxhm3zyua709fihj3jfnmez1vlqp",
+   "fields": {
+      "session_data": "MWRkYjIyZjczMzk0MGI2MTZlM2UxMmE0Y2QzNjI3MjE2NTM2ZWM0YTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI1ZDQ4N2YxZmRjMWEyOTRiODJkNjg0ZTA1Yzg3YjZlODFiNDljMmY2In0=",
+      "expire_date": "2017-10-12T13:32:24.724Z"
+   }
+},
+{
+   "model": "landing.visitor",
+   "pk": 2,
+   "fields": {
+      "email": "peter71302@gmail.com",
+      "name": "Peter"
+   }
+},
+{
+   "model": "landing.visitor",
+   "pk": 4,
+   "fields": {
+      "email": "peter71302@gmail.com",
+      "name": "Peter"
+   }
+},
+{
+   "model": "recipes.recipe",
+   "pk": 1,
+   "fields": {
+      "name": "\u0411\u043e\u0440\u0449",
+      "description": "\u041b\u044e\u0431\u0438\u043c\u044b\u0439 \u0438 \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043d\u044b\u0439 \u0441\u0443\u043f \u0432 \u0431\u043e\u043b\u044c\u0448\u0438\u043d\u0441\u0442\u0432\u0435 \u0440\u0443\u0441\u0441\u043a\u0438\u0445 \u0441\u0435\u043c\u0435\u0439. \u041a\u0430\u043a\u043e\u0439 \u0436\u0435 \u043e\u0431\u0435\u0434 \u0431\u0435\u0437 \u0432\u043a\u0443\u0441\u043d\u043e\u0433\u043e \u043d\u0430\u0432\u0430\u0440\u0438\u0441\u0442\u043e\u0433\u043e \u0431\u043e\u0440\u0449\u0430.",
+      "ingredients": "\u041d\u0430 3 \u043b\u0438\u0442\u0440\u0430 \u0432\u043e\u0434\u044b:\r\n\r\n\u0413\u043e\u0432\u044f\u0434\u0438\u043d\u0430 \u043d\u0430 \u043a\u043e\u0441\u0442\u0438 \u2014 700-800 \u0433\u0440\u0430\u043c\u043c\r\n\r\n\u041a\u0430\u043f\u0443\u0441\u0442\u0430 \u0441\u0432\u0435\u0436\u0430\u044f \u2014 300 \u0433\u0440\u0430\u043c\u043c\r\n\r\n\u041a\u0430\u0440\u0442\u043e\u0444\u0435\u043b\u044c \u2014 2-3 \u0441\u0440\u0435\u0434\u043d\u0438\u0445 \u043a\u0430\u0440\u0442\u043e\u0444\u0435\u043b\u0438\u043d\u044b (200-300 \u0433\u0440\u0430\u043c\u043c)\r\n\r\n\u0421\u0432\u0435\u043a\u043b\u0430 \u2014 2 \u043c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0445 \u0438\u043b\u0438 1 \u0441\u0440\u0435\u0434\u043d\u044f\u044f (100-150 \u0433\u0440\u0430\u043c\u043c)\r\n\r\n\u041c\u043e\u0440\u043a\u043e\u0432\u044c \u2014 1  \u0448\u0442\u0443\u043a\u0430 \u0441\u0440\u0435\u0434\u043d\u0435\u0433\u043e \u0440\u0430\u0437\u043c\u0435\u0440\u0430 (75-100 \u0433\u0440\u0430\u043c\u043c)\r\n\r\n\u041b\u0443\u043a \u0440\u0435\u043f\u0447\u0430\u0442\u044b\u0439 \u2014 1 \u043b\u0443\u043a\u043e\u0432\u0438\u0446\u0430 \u0441\u0440\u0435\u0434\u043d\u0435\u0433\u043e \u0440\u0430\u0437\u043c\u0435\u0440\u0430 (75-100 \u0433\u0440\u0430\u043c\u043c)\r\n\r\n\u0422\u043e\u043c\u0430\u0442\u043d\u0430\u044f \u043f\u0430\u0441\u0442\u0430  \u2014 1 \u0441\u0442. \u043b\u043e\u0436\u043a\u0430, \u0438\u043b\u0438 1 \u043d\u0435\u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u043f\u043e\u043c\u0438\u0434\u043e\u0440\r\n\r\n\u041c\u0430\u0441\u043b\u043e \u0440\u0430\u0441\u0442\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0434\u043b\u044f \u043e\u0431\u0436\u0430\u0440\u043a\u0438\r\n\r\n\u0427\u0435\u0441\u043d\u043e\u043a \u2014 2 \u0437\u0443\u0431\u0447\u0438\u043a\u0430\r\n\r\n\u0421\u043f\u0435\u0446\u0438\u0438: \u0441\u043e\u043b\u044c, \u043f\u0435\u0440\u0435\u0446 \u0447\u0435\u0440\u043d\u044b\u0439 \u043c\u043e\u043b\u043e\u0442\u044b\u0439, \u043b\u0430\u0432\u0440\u043e\u0432\u044b\u0439 \u043b\u0438\u0441\u0442, \u0437\u0435\u043b\u0435\u043d\u044c (\u0443\u043a\u0440\u043e\u043f, \u043f\u0435\u0442\u0440\u0443\u0448\u043a\u0430, \u0431\u0430\u0437\u0438\u043b\u0438\u043a).",
+      "full_recipe": "1. \u041f\u0435\u0440\u0432\u044b\u043c \u0434\u0435\u043b\u043e\u043c \u043d\u0443\u0436\u043d\u043e \u0441\u0432\u0430\u0440\u0438\u0442\u044c \u0431\u0443\u043b\u044c\u043e\u043d. \u0414\u043b\u044f \u044d\u0442\u043e\u0433\u043e \u0433\u043e\u0432\u044f\u0434\u0438\u043d\u0443 \u043d\u0430 \u043a\u043e\u0441\u0442\u0438 \u043f\u0440\u043e\u043c\u044b\u0442\u044c \u043f\u043e\u0434 \u043f\u0440\u043e\u0442\u043e\u0447\u043d\u043e\u0439 \u0432\u043e\u0434\u043e\u0439, \u043f\u043e\u043b\u043e\u0436\u0438\u0442\u044c \u0435\u0435 \u0432 \u043a\u0430\u0441\u0442\u0440\u044e\u043b\u044e \u0438 \u0437\u0430\u043b\u0438\u0442\u044c \u0445\u043e\u043b\u043e\u0434\u043d\u043e\u0439 \u0432\u043e\u0434\u043e\u0439. \u041c\u043e\u0436\u043d\u043e \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c 1 \u0447\u0430\u0439\u043d\u0443\u044e \u043b\u043e\u0436\u043a\u0443 \u0441\u043e\u043b\u0438. \u0414\u043e\u0432\u0435\u0441\u0442\u0438 \u0434\u043e \u043a\u0438\u043f\u0435\u043d\u0438\u044f \u0438 \u0443\u0431\u0430\u0432\u0438\u0442\u044c \u043e\u0433\u043e\u043d\u044c \u0434\u043e \u043c\u0438\u043d\u0438\u043c\u0443\u043c\u0430. \u0411\u043e\u0440\u0449 \u043d\u0443\u0436\u043d\u043e \u0433\u043e\u0442\u043e\u0432\u0438\u0442\u044c \u043d\u0430 \u043c\u0435\u0434\u043b\u0435\u043d\u043d\u043e\u043c \u043e\u0433\u043d\u0435, \u0442\u043e\u0433\u0434\u0430 \u043e\u0432\u043e\u0449\u0438 \u0432 \u043d\u0435\u043c \u043d\u0435 \u0440\u0430\u0437\u0432\u0430\u0440\u044f\u0442\u0441\u044f \u0438 \u043d\u0435 \u043f\u0440\u0435\u0432\u0440\u0430\u0442\u044f\u0442\u0441\u044f \u0432 \u043a\u0430\u0448\u0443. \u0413\u043e\u0432\u044f\u0434\u0438\u043d\u0430 \u0432\u0430\u0440\u0438\u0442\u0441\u044f \u043e\u043a\u043e\u043b\u043e 1 \u0447\u0430\u0441\u0430. \u0413\u043e\u0442\u043e\u0432\u043d\u043e\u0441\u0442\u044c \u043c\u044f\u0441\u0430 \u043c\u043e\u0436\u043d\u043e \u043f\u0440\u043e\u0432\u0435\u0440\u0438\u0442\u044c \u043f\u043e \u0442\u043e\u043c\u0443, \u043d\u0430\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043b\u0435\u0433\u043a\u043e \u043e\u043d\u043e \u043e\u0442\u0434\u0435\u043b\u044f\u0435\u0442\u0441\u044f \u043e\u0442 \u043a\u043e\u0441\u0442\u0438. \r\n\r\n\u041f\u043e\u043a\u0430 \u0433\u043e\u0442\u043e\u0432\u0438\u0442\u0441\u044f \u0431\u0443\u043b\u044c\u043e\u043d, \u043d\u0443\u0436\u043d\u043e \u043f\u043e\u0447\u0438\u0441\u0442\u0438\u0442\u044c \u043e\u0432\u043e\u0449\u0438: \u043a\u0430\u0440\u0442\u043e\u0444\u0435\u043b\u044c, \u043c\u043e\u0440\u043a\u043e\u0432\u044c, \u0441\u0432\u0435\u043a\u043b\u0443, \u043b\u0443\u043a. \u0421\u043e \u0441\u0432\u0435\u0436\u0435\u0439 \u043a\u0430\u043f\u0443\u0441\u0442\u044b \u0443\u0434\u0430\u043b\u0438\u0442\u044c \u0438\u0441\u043f\u043e\u0440\u0447\u0435\u043d\u043d\u044b\u0435 \u043b\u0438\u0441\u0442\u043e\u0447\u043a\u0438 \u0438 \u043d\u0430\u0448\u0438\u043d\u043a\u043e\u0432\u0430\u0442\u044c.\r\n\r\n3. \u041a\u043e\u0433\u0434\u0430 \u043c\u044f\u0441\u043e \u043f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u0438\u0442\u0441\u044f, \u0435\u0433\u043e \u043d\u0443\u0436\u043d\u043e \u0432\u044b\u043d\u0443\u0442\u044c \u0438\u0437 \u0431\u0443\u043b\u044c\u043e\u043d\u0430 \u0438 \u043d\u0435\u043c\u043d\u043e\u0433\u043e \u043e\u0441\u0442\u0443\u0434\u0438\u0442\u044c. \u0417\u0430\u0442\u0435\u043c \u043e\u0442\u0434\u0435\u043b\u0438\u0442\u044c \u043c\u044f\u0441\u043e \u043e\u0442 \u043a\u043e\u0441\u0442\u0438 \u0438 \u0440\u0430\u0437\u0434\u0435\u043b\u0430\u0442\u044c \u043d\u0430 \u043d\u0435\u0431\u043e\u043b\u044c\u0448\u0438\u0435 \u043a\u0443\u0441\u043e\u0447\u043a\u0438. \u042d\u0442\u043e \u0443\u0434\u043e\u0431\u043d\u043e \u0434\u0435\u043b\u0430\u0442\u044c \u043f\u0440\u0438 \u043f\u043e\u043c\u043e\u0449\u0438 \u0434\u0432\u0443\u0445 \u0432\u0438\u043b\u043e\u043a.\r\n\r\n4. \u0420\u0430\u0437\u0434\u0435\u043b\u0430\u043d\u043d\u043e\u0435 \u0432\u0430\u0440\u0435\u043d\u043e\u0435 \u043c\u044f\u0441\u043e \u043e\u043f\u0443\u0441\u0442\u0438\u0442\u044c \u043e\u0431\u0440\u0430\u0442\u043d\u043e \u0432 \u0431\u0443\u043b\u044c\u043e\u043d. \u041d\u0435 \u0437\u0430\u0431\u044b\u0432\u0430\u0439\u0442\u0435 \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043d\u043e \u0441\u043d\u0438\u043c\u0430\u0442\u044c \u0433\u0440\u044f\u0437\u043d\u0443\u044e \u043f\u0435\u043d\u043a\u0443 \u0441 \u043f\u043e\u0432\u0435\u0440\u0445\u043d\u043e\u0441\u0442\u0438 \u0431\u0443\u043b\u044c\u043e\u043d\u0430. \r\n\r\n5. \u041a\u043e\u0433\u0434\u0430 \u0431\u0443\u043b\u044c\u043e\u043d \u0437\u0430\u043a\u0438\u043f\u0438\u0442, \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u043c \u0432 \u043a\u0430\u0441\u0442\u0440\u044e\u043b\u044e \u043d\u0430\u0448\u0438\u043d\u043a\u043e\u0432\u0430\u043d\u043d\u0443\u044e \u0441\u0432\u0435\u0436\u0443\u044e \u043a\u0430\u043f\u0443\u0441\u0442\u0443.\r\n\r\n6. \u041a\u0430\u0440\u0442\u043e\u0444\u0435\u043b\u044c \u043d\u0430\u0440\u0435\u0437\u0430\u0442\u044c \u043a\u0443\u0431\u0438\u043a\u0430\u043c\u0438 \u0438 \u043e\u0442\u043f\u0440\u0430\u0432\u0438\u0442\u044c \u0432 \u043a\u0430\u0441\u0442\u0440\u044e\u043b\u044e \u0441\u043b\u0435\u0434\u043e\u043c \u0437\u0430 \u043a\u0430\u043f\u0443\u0441\u0442\u043e\u0439, \u043f\u043e\u0441\u043b\u0435 \u0442\u043e\u0433\u043e \u043a\u0430\u043a \u0432\u043e\u0434\u0430 \u0432\u043d\u043e\u0432\u044c \u0437\u0430\u043a\u0438\u043f\u0438\u0442. \u0412\u043e\u043e\u0431\u0449\u0435, \u043a\u0430\u0436\u0434\u044b\u0439 \u043d\u043e\u0432\u044b\u0439 \u0438\u043d\u0433\u0440\u0435\u0434\u0438\u0435\u043d\u0442 \u0436\u0435\u043b\u0430\u0442\u0435\u043b\u044c\u043d\u043e \u0437\u0430\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u0442\u044c \u043a\u0430\u0436\u0434\u044b\u0439 \u0440\u0430\u0437, \u043a\u0430\u043a \u0437\u0430\u043a\u0438\u043f\u0438\u0442 \u0431\u0443\u043b\u044c\u043e\u043d (\u043d\u0435 \u0437\u0430\u0431\u044b\u0432\u0430\u0439\u0442\u0435, \u0447\u0442\u043e \u0431\u043e\u0440\u0449 \u0433\u043e\u0442\u043e\u0432\u0438\u0442\u0441\u044f \u043d\u0430 \u043c\u0435\u0434\u043b\u0435\u043d\u043d\u043e\u043c \u043e\u0433\u043d\u0435). \u0414\u043e\u0431\u0430\u0432\u043b\u044f\u0435\u043c \u0441\u043e\u043b\u044c \u0438 \u043f\u0435\u0440\u0435\u0446. \u041f\u043e \u0436\u0435\u043b\u0430\u043d\u0438\u044e \u043c\u043e\u0436\u043d\u043e \u0441\u0434\u043e\u0431\u0440\u0438\u0442\u044c \u0431\u043e\u0440\u0449 \u0441\u043f\u0435\u0446\u0438\u044f\u043c\u0438: \u0445\u043c\u0435\u043b\u0438-\u0441\u0443\u043d\u0435\u043b\u0438, \u043a\u0430\u0440\u0440\u0438, \u0430\u0434\u0436\u0438\u043a\u0430 (\u0441\u0443\u0448\u0435\u043d\u0430\u044f). \r\n\r\n7. \u0421\u0432\u0435\u043a\u043b\u0443 \u043d\u0430\u0442\u0435\u0440\u0435\u0442\u044c \u043d\u0430 \u043a\u0440\u0443\u043f\u043d\u043e\u0439 \u0442\u0435\u0440\u043a\u0435 \u0438\u043b\u0438 \u043d\u0430\u0448\u0438\u043d\u043a\u043e\u0432\u0430\u0442\u044c \u043c\u0435\u043b\u043a\u043e\u0439 \u0441\u043e\u043b\u043e\u043c\u043a\u043e\u0439. \u0412\u044b\u043b\u043e\u0436\u0438\u0442\u044c \u043d\u0430 \u0440\u0430\u0437\u043e\u0433\u0440\u0435\u0442\u0443\u044e \u0441\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0443 \u0441 \u0440\u0430\u0441\u0442\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c \u043c\u0430\u0441\u043b\u043e\u043c. \u0418 \u0442\u0443\u0448\u0438\u0442\u044c \u043d\u0430 \u043c\u0435\u0434\u043b\u0435\u043d\u043d\u043e\u043c \u043e\u0433\u043d\u0435, \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043d\u043e \u043f\u0435\u0440\u0435\u043c\u0435\u0448\u0438\u0432\u0430\u044f, \u043e\u043a\u043e\u043b\u043e 10 \u043c\u0438\u043d\u0443\u0442. \u0417\u0430 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043c\u0438\u043d\u0443\u0442 \u0434\u043e \u0442\u043e\u0433\u043e, \u043a\u0430\u043a \u0441\u043d\u044f\u0442\u044c \u0441\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0443 \u0441 \u043e\u0433\u043d\u044f, \u043d\u0443\u0436\u043d\u043e \u0441\u043f\u0440\u044b\u0441\u043d\u0443\u0442\u044c \u0441\u0432\u0435\u043a\u043b\u0443 \u043b\u0438\u043c\u043e\u043d\u043d\u044b\u043c \u0441\u043e\u043a\u043e\u043c \u0438\u043b\u0438 \u0443\u043a\u0441\u0443\u0441\u043e\u043c (\u044d\u0442\u043e \u0432\u0442\u043e\u0440\u043e\u0439 \u0441\u0435\u043a\u0440\u0435\u0442 \u0432\u043a\u0443\u0441\u043d\u043e\u0433\u043e \u043a\u0440\u0430\u0441\u043d\u043e\u0433\u043e \u0431\u043e\u0440\u0449\u0430). \u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0442\u043e\u043c\u0430\u0442\u043d\u0443\u044e \u043f\u0430\u0441\u0442\u0443 \u0438 \u043f\u0435\u0440\u0435\u043c\u0435\u0448\u0430\u0442\u044c. \u041f\u043e\u0434\u043e\u0433\u0440\u0435\u0442\u044c \u0441\u0432\u0435\u043a\u043b\u0443 \u0441 \u0442\u043e\u043c\u0430\u0442\u043e\u043c \u0435\u0449\u0435 1 \u043c\u0438\u043d\u0443\u0442\u043a\u0443 \u043d\u0430 \u043e\u0433\u043d\u0435. \u0422\u0435\u043f\u0435\u0440\u044c \u0441\u0432\u0435\u043a\u043b\u0430 \u0433\u043e\u0442\u043e\u0432\u043a\u0430 \u043a \u0437\u0430\u043f\u0440\u0430\u0432\u043a\u0435 \u0432 \u0431\u043e\u0440\u0449. \r\n\r\n8. \u041e\u0442\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u043c \u0441\u0432\u0435\u043a\u043b\u0443 \u0432 \u0441\u0443\u043f.\r\n \r\n9. \u041b\u0443\u043a \u043d\u0430\u0440\u0435\u0437\u0430\u0442\u044c \u043c\u0435\u043b\u043a\u0438\u043c\u0438 \u043a\u0443\u0431\u0438\u043a\u0430\u043c\u0438, \u043c\u043e\u0440\u043a\u043e\u0432\u044c \u043d\u0430\u0442\u0435\u0440\u0435\u0442\u044c \u043d\u0430 \u043a\u0440\u0443\u043f\u043d\u043e\u0439 \u0442\u0435\u0440\u043a\u0435 \u0438\u043b\u0438 \u043c\u0435\u043b\u043a\u043e \u043d\u0430\u0440\u0435\u0437\u0430\u0442\u044c (\u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442\u0441\u044f \u043a\u0440\u0430\u0441\u0438\u0432\u0435\u0435). \u0412\u044b\u043b\u043e\u0436\u0438\u0442\u044c \u043d\u0430 \u0434\u043d\u043e \u0440\u0430\u0437\u043e\u0433\u0440\u0435\u0442\u043e\u0439 \u0441\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u044b \u0441 \u0440\u0430\u0441\u0442\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c \u043c\u0430\u0441\u043b\u043e\u043c \u0438 \u043e\u0431\u0436\u0430\u0440\u0438\u0442\u044c \u0434\u043e \u043f\u043e\u044f\u0432\u043b\u0435\u043d\u0438\u044f \u0440\u0443\u043c\u044f\u043d\u043e\u0439 \u043a\u043e\u0440\u043e\u0447\u043a\u0438. \u041d\u0435 \u043f\u0435\u0440\u0435\u0443\u0441\u0435\u0440\u0434\u0441\u0442\u0432\u0443\u0439\u0442\u0435. \u041b\u0443\u043a \u043d\u0435 \u0434\u043e\u043b\u0436\u0435\u043d \u0437\u0430\u0436\u0430\u0440\u0438\u0442\u0441\u044f, \u043e\u043d \u0434\u043e\u043b\u0436\u0435\u043d \u043e\u0441\u0442\u0430\u0432\u0430\u0442\u044c\u0441\u044f \u0441\u043e\u0447\u043d\u044b\u043c, \u043f\u043e\u044d\u0442\u043e\u043c\u0443, \u043a\u0430\u043a \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e\u044f\u0432\u0438\u0442\u0441\u044f \u0437\u043e\u043b\u043e\u0442\u0438\u0441\u0442\u044b\u0439 \u043e\u0442\u0442\u0435\u043d\u043e\u043a, \u0437\u0430\u0436\u0430\u0440\u043a\u0443 \u043d\u0443\u0436\u043d\u043e \u0441\u043d\u044f\u0442\u044c \u0441 \u043e\u0433\u043d\u044f (\u044d\u0442\u043e \u043e\u0434\u0438\u043d \u0441\u0435\u043a\u0440\u0435\u0442 \u0432\u043a\u0443\u0441\u043d\u043e\u0433\u043e \u0431\u043e\u0440\u0449\u0430). \r\n\r\n10. \u041f\u043e\u0441\u043b\u0435 \u043e\u0447\u0435\u0440\u0435\u0434\u043d\u043e\u0433\u043e \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u044f \u0431\u0443\u043b\u044c\u043e\u043d\u0430, \u0437\u0430\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u0435\u043c \u0432 \u043d\u0435\u0433\u043e \u0437\u0430\u0436\u0430\u0440\u043a\u0443 \u0438\u0437 \u043b\u0443\u043a\u0430 \u0438 \u043c\u043e\u0440\u043a\u043e\u0432\u0438.  \r\n\r\n11. \u0422\u0435\u043f\u0435\u0440\u044c \u043e\u0447\u0435\u043d\u044c \u0432\u0430\u0436\u043d\u044b\u0439 \u0438\u043d\u0433\u0440\u0435\u0434\u0438\u0435\u043d\u0442 \u2014 \u0447\u0435\u0441\u043d\u043e\u043a (\u0435\u0449\u0435 \u043e\u0434\u0438\u043d \u0441\u0435\u043a\u0440\u0435\u0442 \u0431\u043e\u0440\u0449\u0430). \u0415\u0433\u043e \u043c\u043e\u0436\u043d\u043e \u043d\u0430\u0440\u0435\u0437\u0430\u0442\u044c \u043c\u0435\u043b\u043a\u0438\u043c\u0438 \u043a\u0443\u0431\u0438\u043a\u0430\u043c\u0438 \u0438\u043b\u0438 \u043f\u0440\u043e\u0441\u0442\u043e \u0440\u0430\u0437\u0440\u0435\u0437\u0430\u0442\u044c \u043d\u0430 \u0447\u0435\u0442\u0432\u0435\u0440\u0442\u0438\u043d\u043a\u0438. \u0412\u0430\u0436\u043d\u043e \u0447\u0435\u0441\u043d\u043e\u043a \u0434\u043e\u0431\u0430\u0432\u043b\u044f\u0442\u044c \u0432 \u0441\u0430\u043c\u043e\u043c \u043a\u043e\u043d\u0446\u0435 \u043f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u0431\u043e\u0440\u0449\u0430. \u041e\u043d \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u0435\u0442 \u043a\u0430\u043a \u043d\u0430\u0442\u0443\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0443\u0441\u0438\u043b\u0438\u0442\u0435\u043b\u044c \u0432\u043a\u0443\u0441\u0430 \u0438 \u0430\u0440\u043e\u043c\u0430\u0442\u0430. \r\n\r\n12. \u041d\u0435\u0438\u0437\u043c\u0435\u043d\u043d\u044b\u043c \u0443\u043a\u0440\u0430\u0448\u0435\u043d\u0438\u0435\u043c \u0432\u0430\u0448\u0435\u0433\u043e \u0431\u043e\u0440\u0449\u0430 \u0441\u0442\u0430\u043d\u0435\u0442 \u0440\u0430\u0437\u043d\u043e\u043e\u0431\u0440\u0430\u0437\u043d\u0430\u044f \u0437\u0435\u043b\u0435\u043d\u044c, \u043a\u0430\u043a \u0432 \u0441\u0432\u0435\u0436\u0435\u043c, \u0442\u0430\u043a \u0438 \u0432 \u0441\u0443\u0448\u0435\u043d\u043e\u043c \u0432\u0438\u0434\u0435. \u0415\u0435 \u0442\u0430\u043a\u0436\u0435 \u043d\u0443\u0436\u043d\u043e \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0432 \u0431\u043e\u0440\u0449 \u0437\u0430 5 \u043c\u0438\u043d\u0443\u0442 \u0434\u043e \u043e\u043a\u043e\u043d\u0447\u0430\u043d\u0438\u044f \u0433\u043e\u0442\u043e\u0432\u043a\u0438.",
+      "views_counter": 18,
+      "tag": "\u0421\u0443\u043f",
+      "status": "\u0421\u0432\u0435\u0436\u0435\u0435",
+      "image": "recipes/images/borsch_Lqx81ZY.jpg",
+      "created": "2018-02-15T14:55:36.820Z",
+      "updated": "2018-03-04T07:20:52.137Z"
+   }
+},
+{
+   "model": "recipes.recipe",
+   "pk": 2,
+   "fields": {
+      "name": "\u041f\u043b\u043e\u0432",
+      "description": "\u041f\u043b\u043e\u0432, \u043f\u043b\u043e\u0432, \u041f\u041b\u041e\u0412",
+      "ingredients": "ingredients",
+      "full_recipe": "full recipe",
+      "views_counter": 3,
+      "tag": "\u0413\u043e\u0440\u044f\u0447\u0435\u0435 \u0431\u043b\u044e\u0434\u043e",
+      "status": "\u0410\u0440\u0445\u0438\u0432",
+      "image": "recipes/images/17012016-23_6VH3EAI.jpg",
+      "created": "2018-02-15T14:56:00.553Z",
+      "updated": "2018-03-04T06:59:33.632Z"
+   }
+},
+{
+   "model": "recipes.recipe",
+   "pk": 3,
+   "fields": {
+      "name": "\u0426\u0435\u0437\u0430\u0440\u044c",
+      "description": "\u0426\u0435\u0437\u0430\u0440\u044c, \u0446\u0435\u0437\u0430\u0440\u044c, \u0426\u0415\u0417\u0410\u0420\u042c",
+      "ingredients": "ingredients",
+      "full_recipe": "full recipe",
+      "views_counter": 31,
+      "tag": "\u0421\u0430\u043b\u0430\u0442",
+      "status": "\u0410\u0440\u0445\u0438\u0432",
+      "image": "recipes/images/crsar_YzTmFy6.jpg",
+      "created": "2018-02-15T14:58:27.144Z",
+      "updated": "2018-03-04T06:59:39.979Z"
+   }
+},
+{
+   "model": "recipes.recipe",
+   "pk": 4,
+   "fields": {
+      "name": "\u0427\u0438\u0437\u043a\u0435\u0439\u043a",
+      "description": "\u0427\u0438\u0437\u043a\u0435\u0439\u043a, \u0447\u0438\u0437\u043a\u0435\u0439\u043a, \u0427\u0418\u0417\u041a\u0415\u0419\u041a",
+      "ingredients": "ingredients",
+      "full_recipe": "full recipe",
+      "views_counter": 103,
+      "tag": "\u0412\u044b\u043f\u0435\u0447\u043a\u0430",
+      "status": "\u041b\u0443\u0447\u0448\u0435\u0435",
+      "image": "recipes/images/12-png_M7VNUou.png",
+      "created": "2018-02-15T14:59:00.600Z",
+      "updated": "2018-03-04T06:59:50.820Z"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 1,
+   "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 2,
+   "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 3,
+   "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 4,
+   "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 5,
+   "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 6,
+   "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 7,
+   "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 8,
+   "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 9,
+   "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 10,
+   "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 11,
+   "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 12,
+   "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 13,
+   "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 14,
+   "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 15,
+   "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 16,
+   "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 17,
+   "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 18,
+   "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 19,
+   "fields": {
+      "name": "Can add post",
+      "content_type": 7,
+      "codename": "add_post"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 20,
+   "fields": {
+      "name": "Can change post",
+      "content_type": 7,
+      "codename": "change_post"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 21,
+   "fields": {
+      "name": "Can delete post",
+      "content_type": 7,
+      "codename": "delete_post"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 22,
+   "fields": {
+      "name": "Can add visitors",
+      "content_type": 8,
+      "codename": "add_visitors"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 23,
+   "fields": {
+      "name": "Can change visitors",
+      "content_type": 8,
+      "codename": "change_visitors"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 24,
+   "fields": {
+      "name": "Can delete visitors",
+      "content_type": 8,
+      "codename": "delete_visitors"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 25,
+   "fields": {
+      "name": "Can add visitor",
+      "content_type": 8,
+      "codename": "add_visitor"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 26,
+   "fields": {
+      "name": "Can change visitor",
+      "content_type": 8,
+      "codename": "change_visitor"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 27,
+   "fields": {
+      "name": "Can delete visitor",
+      "content_type": 8,
+      "codename": "delete_visitor"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 28,
+   "fields": {
+      "name": "Can add recipe",
+      "content_type": 9,
+      "codename": "add_recipe"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 29,
+   "fields": {
+      "name": "Can change recipe",
+      "content_type": 9,
+      "codename": "change_recipe"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 30,
+   "fields": {
+      "name": "Can delete recipe",
+      "content_type": 9,
+      "codename": "delete_recipe"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 31,
+   "fields": {
+      "name": "Can add \u041a\u0430\u0440\u0442\u0438\u043d\u043a\u0430",
+      "content_type": 10,
+      "codename": "add_recipeimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 32,
+   "fields": {
+      "name": "Can change \u041a\u0430\u0440\u0442\u0438\u043d\u043a\u0430",
+      "content_type": 10,
+      "codename": "change_recipeimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 33,
+   "fields": {
+      "name": "Can delete \u041a\u0430\u0440\u0442\u0438\u043d\u043a\u0430",
+      "content_type": 10,
+      "codename": "delete_recipeimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 34,
+   "fields": {
+      "name": "Can add \u0422\u044d\u0433",
+      "content_type": 11,
+      "codename": "add_recipetag"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 35,
+   "fields": {
+      "name": "Can change \u0422\u044d\u0433",
+      "content_type": 11,
+      "codename": "change_recipetag"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 36,
+   "fields": {
+      "name": "Can delete \u0422\u044d\u0433",
+      "content_type": 11,
+      "codename": "delete_recipetag"
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 1,
+   "fields": {
+      "password": "pbkdf2_sha256$36000$ZRan8rYlTtQ7$Zqf/JDaEagE4PZEQkWKo0XxNd3UaIbde1hq9T67vDoI=",
+      "last_login": "2018-02-27T14:47:33.792Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "peter71302@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2017-09-22T16:44:14.175Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 1,
+   "fields": {
+      "action_time": "2017-09-29T14:14:35.568Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "visitors object",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 2,
+   "fields": {
+      "action_time": "2017-09-29T17:15:44.337Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "visitors object",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 3,
+   "fields": {
+      "action_time": "2017-09-29T17:15:51.504Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "visitors object",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 4,
+   "fields": {
+      "action_time": "2017-09-29T17:16:20.869Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "visitors object",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 5,
+   "fields": {
+      "action_time": "2017-09-29T17:16:33.861Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "visitors object",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 6,
+   "fields": {
+      "action_time": "2018-01-27T13:50:58.608Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0411\u043e\u0440\u0449",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 7,
+   "fields": {
+      "action_time": "2018-01-27T13:52:28.446Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "RecipeImage object",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 8,
+   "fields": {
+      "action_time": "2018-01-27T13:53:40.601Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "RecipeImage object",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 9,
+   "fields": {
+      "action_time": "2018-01-27T13:53:47.902Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "RecipeImage object",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 10,
+   "fields": {
+      "action_time": "2018-01-27T15:31:25.404Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "RecipeTag object",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 11,
+   "fields": {
+      "action_time": "2018-01-27T15:35:32.681Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0411\u043e\u0440\u0449",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0422\\u044d\\u0433\", \"object\": \"RecipeTag object\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 12,
+   "fields": {
+      "action_time": "2018-02-01T12:36:00.051Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u041f\u043b\u043e\u0432",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0422\\u044d\\u0433\", \"object\": \"RecipeTag object\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 13,
+   "fields": {
+      "action_time": "2018-02-01T12:38:45.345Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0427\u0438\u0437\u043a\u0435\u0439\u043a",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0422\\u044d\\u0433\", \"object\": \"RecipeTag object\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 14,
+   "fields": {
+      "action_time": "2018-02-01T13:57:28.196Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0426\u0435\u0437\u0430\u0440\u044c",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0422\\u044d\\u0433\", \"object\": \"RecipeTag object\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 15,
+   "fields": {
+      "action_time": "2018-02-01T14:37:29.772Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u041f\u043b\u043e\u0432",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u041a\\u0430\\u0440\\u0442\\u0438\\u043d\\u043a\\u0430\", \"object\": \"RecipeImage object\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 16,
+   "fields": {
+      "action_time": "2018-02-01T14:37:40.818Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0427\u0438\u0437\u043a\u0435\u0439\u043a",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u041a\\u0430\\u0440\\u0442\\u0438\\u043d\\u043a\\u0430\", \"object\": \"RecipeImage object\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 17,
+   "fields": {
+      "action_time": "2018-02-01T14:37:49.683Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0426\u0435\u0437\u0430\u0440\u044c",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u041a\\u0430\\u0440\\u0442\\u0438\\u043d\\u043a\\u0430\", \"object\": \"RecipeImage object\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 18,
+   "fields": {
+      "action_time": "2018-02-04T12:27:55.884Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0426\u0435\u0437\u0430\u0440\u044c",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 19,
+   "fields": {
+      "action_time": "2018-02-04T12:27:55.896Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0427\u0438\u0437\u043a\u0435\u0439\u043a",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 20,
+   "fields": {
+      "action_time": "2018-02-04T12:27:55.904Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u041f\u043b\u043e\u0432",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 21,
+   "fields": {
+      "action_time": "2018-02-04T12:27:55.914Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0411\u043e\u0440\u0449",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 22,
+   "fields": {
+      "action_time": "2018-02-04T12:33:41.931Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0411\u043e\u0440\u0449",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 23,
+   "fields": {
+      "action_time": "2018-02-04T13:03:17.310Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0427\u0438\u0437\u043a\u0435\u0439\u043a",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 24,
+   "fields": {
+      "action_time": "2018-02-04T13:03:39.910Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u041f\u043b\u043e\u0432",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 25,
+   "fields": {
+      "action_time": "2018-02-04T13:04:00.092Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0426\u0435\u0437\u0430\u0440\u044c",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 26,
+   "fields": {
+      "action_time": "2018-02-04T13:05:30.540Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0426\u0435\u0437\u0430\u0440\u044c",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 27,
+   "fields": {
+      "action_time": "2018-02-04T13:05:30.549Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u041f\u043b\u043e\u0432",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 28,
+   "fields": {
+      "action_time": "2018-02-04T13:05:30.556Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0427\u0438\u0437\u043a\u0435\u0439\u043a",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 29,
+   "fields": {
+      "action_time": "2018-02-04T13:06:45.459Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u041f\u043b\u043e\u0432",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 30,
+   "fields": {
+      "action_time": "2018-02-04T13:07:37.307Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u041f\u043b\u043e\u0432",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 31,
+   "fields": {
+      "action_time": "2018-02-04T13:07:37.320Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0411\u043e\u0440\u0449",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 32,
+   "fields": {
+      "action_time": "2018-02-04T13:07:58.744Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0411\u043e\u0440\u0449",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 33,
+   "fields": {
+      "action_time": "2018-02-04T13:08:19.417Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u041f\u043b\u043e\u0432",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 34,
+   "fields": {
+      "action_time": "2018-02-04T13:09:00.017Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0427\u0438\u0437\u043a\u0435\u0439\u043a",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 35,
+   "fields": {
+      "action_time": "2018-02-04T13:09:27.264Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0426\u0435\u0437\u0430\u0440\u044c",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 36,
+   "fields": {
+      "action_time": "2018-02-05T15:29:42.693Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0411\u043e\u0440\u0449",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"tag\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 37,
+   "fields": {
+      "action_time": "2018-02-05T15:29:51.447Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u041f\u043b\u043e\u0432",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"tag\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 38,
+   "fields": {
+      "action_time": "2018-02-05T15:29:57.044Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0411\u043e\u0440\u0449",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"tag\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 39,
+   "fields": {
+      "action_time": "2018-02-05T15:30:03.357Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0427\u0438\u0437\u043a\u0435\u0439\u043a",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"tag\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 40,
+   "fields": {
+      "action_time": "2018-02-05T15:30:10.253Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0426\u0435\u0437\u0430\u0440\u044c",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"tag\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 41,
+   "fields": {
+      "action_time": "2018-02-05T15:48:50.770Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0411\u043e\u0440\u0449",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 42,
+   "fields": {
+      "action_time": "2018-02-05T15:48:57.018Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u041f\u043b\u043e\u0432",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 43,
+   "fields": {
+      "action_time": "2018-02-05T15:49:06.250Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0427\u0438\u0437\u043a\u0435\u0439\u043a",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 44,
+   "fields": {
+      "action_time": "2018-02-05T15:49:14.275Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0426\u0435\u0437\u0430\u0440\u044c",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 45,
+   "fields": {
+      "action_time": "2018-02-11T08:21:57.130Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u041f\u043b\u043e\u0432",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 46,
+   "fields": {
+      "action_time": "2018-02-11T08:22:02.466Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0427\u0438\u0437\u043a\u0435\u0439\u043a",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 47,
+   "fields": {
+      "action_time": "2018-02-11T08:27:16.939Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u041f\u043b\u043e\u0432",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 48,
+   "fields": {
+      "action_time": "2018-02-11T08:27:24.548Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0427\u0438\u0437\u043a\u0435\u0439\u043a",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 49,
+   "fields": {
+      "action_time": "2018-02-11T08:29:00.884Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u041f\u043b\u043e\u0432",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 50,
+   "fields": {
+      "action_time": "2018-02-11T08:29:06.200Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0427\u0438\u0437\u043a\u0435\u0439\u043a",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 51,
+   "fields": {
+      "action_time": "2018-02-15T14:56:24.404Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0426\u0435\u0437\u0430\u0440\u044c",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 52,
+   "fields": {
+      "action_time": "2018-02-15T14:56:24.419Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0427\u0438\u0437\u043a\u0435\u0439\u043a",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 53,
+   "fields": {
+      "action_time": "2018-02-15T14:56:24.428Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u041f\u043b\u043e\u0432",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 54,
+   "fields": {
+      "action_time": "2018-02-15T14:56:24.435Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0411\u043e\u0440\u0449",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 55,
+   "fields": {
+      "action_time": "2018-02-15T14:57:36.827Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0411\u043e\u0440\u0449",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 56,
+   "fields": {
+      "action_time": "2018-02-15T14:58:00.556Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u041f\u043b\u043e\u0432",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 57,
+   "fields": {
+      "action_time": "2018-02-15T14:58:27.147Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0426\u0435\u0437\u0430\u0440\u044c",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 58,
+   "fields": {
+      "action_time": "2018-02-15T14:59:00.602Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0427\u0438\u0437\u043a\u0435\u0439\u043a",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 59,
+   "fields": {
+      "action_time": "2018-02-15T14:59:39.907Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0411\u043e\u0440\u0449",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 60,
+   "fields": {
+      "action_time": "2018-02-27T14:47:53.182Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0411\u043e\u0440\u0449",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"views_counter\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 61,
+   "fields": {
+      "action_time": "2018-02-27T14:48:00.194Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0426\u0435\u0437\u0430\u0440\u044c",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"views_counter\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 62,
+   "fields": {
+      "action_time": "2018-02-27T14:48:08.181Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u041f\u043b\u043e\u0432",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"views_counter\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 63,
+   "fields": {
+      "action_time": "2018-02-27T14:48:16.575Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0427\u0438\u0437\u043a\u0435\u0439\u043a",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"views_counter\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 64,
+   "fields": {
+      "action_time": "2018-02-27T15:33:02.941Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u041f\u043b\u043e\u0432",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"views_counter\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 65,
+   "fields": {
+      "action_time": "2018-02-27T15:33:11.137Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0426\u0435\u0437\u0430\u0440\u044c",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"views_counter\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 66,
+   "fields": {
+      "action_time": "2018-02-27T15:38:06.824Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u041f\u043b\u043e\u0432",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"views_counter\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 67,
+   "fields": {
+      "action_time": "2018-02-27T15:48:53.643Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0426\u0435\u0437\u0430\u0440\u044c",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"views_counter\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 68,
+   "fields": {
+      "action_time": "2018-02-27T15:52:35.570Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u041f\u043b\u043e\u0432",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 69,
+   "fields": {
+      "action_time": "2018-02-27T16:17:42.240Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0427\u0438\u0437\u043a\u0435\u0439\u043a",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"ingredients\", \"full_recipe\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 70,
+   "fields": {
+      "action_time": "2018-02-27T16:17:49.189Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0427\u0438\u0437\u043a\u0435\u0439\u043a",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"full_recipe\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 71,
+   "fields": {
+      "action_time": "2018-02-27T16:18:00.740Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0426\u0435\u0437\u0430\u0440\u044c",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"ingredients\", \"full_recipe\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 72,
+   "fields": {
+      "action_time": "2018-02-27T16:18:12.608Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u041f\u043b\u043e\u0432",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"ingredients\", \"full_recipe\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 73,
+   "fields": {
+      "action_time": "2018-02-27T16:18:23.600Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0411\u043e\u0440\u0449",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"ingredients\", \"full_recipe\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 74,
+   "fields": {
+      "action_time": "2018-02-27T16:19:47.149Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0411\u043e\u0440\u0449",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 75,
+   "fields": {
+      "action_time": "2018-02-27T16:22:02.329Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0411\u043e\u0440\u0449",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"ingredients\", \"full_recipe\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 76,
+   "fields": {
+      "action_time": "2018-03-04T06:59:27.624Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0411\u043e\u0440\u0449",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 77,
+   "fields": {
+      "action_time": "2018-03-04T06:59:33.636Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u041f\u043b\u043e\u0432",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 78,
+   "fields": {
+      "action_time": "2018-03-04T06:59:39.983Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0426\u0435\u0437\u0430\u0440\u044c",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 79,
+   "fields": {
+      "action_time": "2018-03-04T06:59:50.824Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0427\u0438\u0437\u043a\u0435\u0439\u043a",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 80,
+   "fields": {
+      "action_time": "2018-03-04T07:20:52.141Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0411\u043e\u0440\u0449",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"views_counter\"]}}]"
+   }
+}
+]
