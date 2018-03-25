@@ -26,9 +26,7 @@ urlpatterns = [
     url(r'^', include('recipes.urls')),
     url(r'^', include('search.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) \
-<<<<<<< HEAD
   + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-=======
-+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
->>>>>>> c7e55e0d8c3f79ae23d786af32cc13be29d4071c
+
+
          
