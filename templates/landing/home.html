@@ -22,7 +22,7 @@
                                     <span class='recipe-status new'>{{ recipe.status }}</span>
                                 {% endif %}
                                 <!--<span class="recipe-tag">{{ recipe.tag }}</span><br>-->
-                                <img src="{% static 'img/view.svg' %}">
+                                <img src='{% static "img/view.svg" %}'>
                                 <span class='recipe-views'> {{ recipe.views_counter }} </span><br>
                                 <a href="{% url 'recipe' recipe.id %}" class="btn btn-primary">Просмотреть рецепт</a> 
                             </div>

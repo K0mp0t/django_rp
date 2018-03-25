@@ -127,6 +127,12 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
 
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'django.contrib.staticfiles.finders.DefaultStorageFinder',
+)
+
 STATIC_URL = '/static/'
 STATIC_ROOT = ''
 MEDIA_URL = '/media/'
@@ -134,7 +140,14 @@ MEDIA_ROOT = BASE_DIR + '/media/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),
                     os.path.join(BASE_DIR, "media"))
 
+<<<<<<< HEAD
 # try:
 #     from .settings_prod import *
 # except:
 #     pass
+=======
+try:
+    from .settings_prod import *
+except:
+    pass
+>>>>>>> c7e55e0d8c3f79ae23d786af32cc13be29d4071c
