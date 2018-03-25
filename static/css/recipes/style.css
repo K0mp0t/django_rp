@@ -91,8 +91,15 @@ body {
 
 .navbar-nav {
     margin-right: auto;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .no-result {
     font-size: 24px;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    font-size: 22px;
 }
