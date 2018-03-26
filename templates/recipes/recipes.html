@@ -16,11 +16,15 @@
     {% block content %}
       <div class='container'>
         <div class='row'>
-          <div class='col-6'>
+          <div class='col-12'>
+            <h1 class='text-center'>{{ recipe.name }}</h1>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='col-xl-6'>
             <img src='{{ recipe.image.url }}' class='img-fluid'>
           </div>
-          <div class='col-6'>
-            <h1 class='text-center'>{{ recipe.name }}</h1>
+          <div class='col-xl-6'>
             <div class='ingredients'>
               <h3>Ингридиенты:</h3>
               {{ recipe.ingredients }}
