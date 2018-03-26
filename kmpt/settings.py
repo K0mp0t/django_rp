@@ -142,3 +142,10 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),
 #     from .settings_prod import *
 # except:
 #     pass
+
+try:
+    from .settings_prod import *
+except:
+    pass
+
+
