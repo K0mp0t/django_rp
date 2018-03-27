@@ -27,7 +27,7 @@
           <div class='col-xl-6'>
             <div class='ingredients'>
               <h3>Ингридиенты:</h3>
-              {{ recipe.ingredients }}
+              {{ recipe.ingredients|linebreaks }}
             </div>
           </div>
         </div>
@@ -35,7 +35,7 @@
           <div class='col-12'>
             <div class='full-recipe'>
               <h3>Способ приготовления:</h3>
-              {{ recipe.full_recipe }}
+              {{ recipe.full_recipe|linebreaks }}
             </div>
           </div>
         </div>

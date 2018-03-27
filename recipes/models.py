@@ -6,7 +6,7 @@ class Recipe(models.Model):
     STATUS_CHOICES = (('Свежее', 'Свежее'), ('Популярное', 'Популярное'), ('Лучшее', 'Лучшее'), ('Архив', 'Архив')) 
     
     name = models.CharField(max_length=64, default=None)
-    description = models.TextField(default=None, max_length=60, blank=True, null=True)
+    description = models.TextField(default=None, max_length=100, blank=True, null=True)
     ingredients = models.TextField(default=None)
     full_recipe = models.TextField(default=None)
     views_counter = models.IntegerField(default=None, blank=True, null=True)
