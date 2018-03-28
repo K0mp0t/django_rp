@@ -8,7 +8,7 @@ def home(request):
 		recipe.status = 'Архив'
 		recipe.save(update_fields=['status'])
 	k = 0
-	recipes = Recipe.objects.order_by('created')
+	recipes = Recipe.objects.order_by('-created')
 	for i in range(1):
 		recipe_new = recipes[0+k]
 		recipe_new.status = 'Свежее'
