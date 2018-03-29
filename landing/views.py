@@ -9,14 +9,14 @@ def home(request):
 		recipe.save(update_fields=['status'])
 	k = 0
 	recipes = Recipe.objects.order_by('-created')
-	for i in range(1):
+	for i in range(9):
 		recipe_new = recipes[0+k]
 		recipe_new.status = 'Свежее'
 		recipe_new.save(update_fields=['status'])
 		k += 1
 	recipes = Recipe.objects.order_by('-views_counter')
 	k = 0
-	for i in range(1):
+	for i in range(6):
 		recipe_best = recipes[0+k]
 		if recipe_best.status != 'Свежее':
 			recipe_best.status = 'Лучшее'
