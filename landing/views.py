@@ -14,15 +14,16 @@ def home(request):
 			recipe_new = recipes[0+k]
 			recipe_new.status = 'Свежее'
 			recipe_new.save(update_fields=['status'])
-			k += 1
-		recipes = Recipe.objects.order_by('-views_counter')
 		k = 0
+		recipes = Recipe.objects.order_by('-views_counter')
 		for i in range(6):
 			recipe_best = recipes[0+k]
 			if recipe_best.status != 'Свежее':
 				recipe_best.status = 'Лучшее'
 				recipe_best.save(update_fields=['status'])
 				k += 1
+		k = 0
+
 	except IndexError:
 		pass
 	recipes_new = Recipe.objects.filter(status='Свежее')
@@ -69,3 +70,4 @@ def tags(request):
 		header = 'Выпечка'
 	return render(request, 'landing/pokushatz.html', locals())
 	
+
