@@ -14,6 +14,7 @@ def home(request):
 			recipe_new = recipes[0+k]
 			recipe_new.status = 'Свежее'
 			recipe_new.save(update_fields=['status'])
+			k += 1
 		k = 0
 		recipes = Recipe.objects.order_by('-views_counter')
 		for i in range(6):
