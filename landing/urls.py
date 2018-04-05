@@ -10,4 +10,5 @@ urlpatterns = [
 	url(r'^recipes/hot/$', views.hot, name = 'hot'),
 	url(r'^recipes/archive/$', views.archive, name = 'archive'),
 	url(r'^about/$', views.about, name = 'about'),
+	url(r'^tags/$', views.tags, name = 'tags'),
 ]

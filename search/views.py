@@ -22,20 +22,8 @@ class ESearchView(View):
         if question is not None:
             search_recipes = Recipe.objects.filter(name__contains=question)
             print(search_recipes)
-            # формируем строку URL, которая будет содержать последний запрос
-            # Это важно для корректной работы пагинации
             context['last_question'] = '?q=%s' % question
             context['recipes_list'] = search_recipes
-            
-            # current_page = Paginator(search_articles, 10)
-            # 
-            # page = request.GET.get('page')
-            # try:
-            #     context['recipe_lists'] = current_page.page(page)
-            # except PageNotAnInteger:
-            #     context['recipe_lists'] = current_page.page(1)
-            # except EmptyPage:
-            #     context['recipe_lists'] = current_page.page(current_page.num_pages)
 
         return render_to_response(template_name=self.template_name, context=context)
 
