@@ -18,7 +18,7 @@ def home(request):
 		k = 0
 		recipes = Recipe.objects.order_by('-views_counter')
 		i = 0
-		while i < 7:
+		while i < 6:
 			recipe_best = recipes[0+k]
 			if recipe_best.status != 'Свежее':
 				recipe_best.status = 'Лучшее'
