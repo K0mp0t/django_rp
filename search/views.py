@@ -18,10 +18,10 @@ class ESearchView(View):
         context = {}
 
         question = request.GET.get('q')
+        question = question.lower()
         
         if question is not None:
-            search_recipes = Recipe.objects.filter(name__contains=question)
-            print(search_recipes)
+            search_recipes = Recipe.objects.filter(name__contains=question[1:])
             context['last_question'] = '?q=%s' % question
             context['recipes_list'] = search_recipes
 
